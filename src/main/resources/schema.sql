@@ -1,0 +1,7 @@
+CREATE TABLE audit_log (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  input VARCHAR(256) NOT NULL,
+  to_type VARCHAR(256) NOT NULL,
+  from_type VARCHAR(256) NOT NULL,
+  created_on TIMESTAMP NOT NULL
+);
